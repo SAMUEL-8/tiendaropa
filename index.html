@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Tienda de Ropa</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo"> Shop </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="ri-home-line"></i>
+              <span>Inicio</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#new" class="nav__link">
+              <i class="ri-fire-line"></i>
+              <span>Más vendidos</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#collection" class="nav__link">
+              <i class="ri-pantone-line"></i>
+              <span>Colección</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#products" class="nav__link">
+              <i class="ri-t-shirt-line"></i>
+              <span>Productos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- oscuro -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            Nueva Colección & <br>
+            Moda
+          </h1>
+          <p class="home__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolore, architecto. Non minus nisi, aliquid laudantium aperiam reiciendis ab error magni officia, ex eius?
+            Ullam natus omnis eveniet, vitae beatae tempore.
+          </p>
+          <a href="#new" class="button__link">
+            Explorar <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+
+        <div class="home__images">
+          <img src="img/modelo2.jpg" alt="home image">
+          <img src="img/modelo1.jpg" alt="home image">
+        </div>
+    </section>
+
+    <!--==================== NEW ====================-->
+    <section class="new section" id="new">
+      <h2 class="section__title">
+        Más vendidos
+      </h2>
+      <div class="new__container container grid">
+        <article class="new__card">
+          <img src="img/modelo6.jpg" alt="new image" class="new__img">
+          <a href="#" class="new__link">
+            <div class="new__data">
+              <h2 class="new__title">
+                Polo y Conjunto
+              </h2>
+              <span class="new__subtitle">
+                <i class="ri-money-dollar-circle-line">125</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                color: #ff4d4d; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                color: #f7f1e3; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                color: #4b4b4b; border-radius: 50%;"></i>
+              </span>
+            </div>
+            <i class="ri-fire-line"></i>
+          </a>
+        </article>
+
+        <article class="new__card">
+          <img src="img/modelo5.jpg" alt="new image" class="new__img">
+          <a href="#" class="new__link">
+            <div class="new__data">
+              <h2 class="new__title">
+                Pantalón y Conjunto
+              </h2>
+              <span class="new__subtitle">
+                <i class="ri-money-dollar-circle-line">150</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                color: #ff4d4d; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                color: #f7f1e3; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                color: #4b4b4b; border-radius: 50%;"></i>
+              </span>
+            </div>
+            <i class="ri-fire-line"></i>
+          </a>
+        </article>
+
+        <article class="new__card">
+          <img src="img/modelo7.jpg" alt="new image" class="new__img">
+          <a href="#" class="new__link">
+            <div class="new__data">
+              <h2 class="new__title">
+                Hola y están
+              </h2>
+              <span class="new__subtitle">
+                <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                color: #ff4d4d; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                color: #f7f1e3; border-radius: 50%;"></i>
+                <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                color: #4b4b4b; border-radius: 50%;"></i>
+              </span>
+            </div>
+            <i class="ri-fire-line"></i>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== COLLECTION ====================-->
+    <section class="collection section" id="collection">
+      <div class="collection__container container">
+        <div class="collection__explore">
+          <div class="collection__data-men">
+            <h2 class="collection__title">
+              Colección <br>
+              Hombres
+            </h2>
+            <a href="#products" class="button__link">
+              Ver Productos <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <img src="img/collection1.png" alt="collection image">
+        </div>
+
+        <div class="collection__explore">
+          <img src="img/collection2.png" alt="collection image">
+          <div class="collection__data-women">
+            <h2 class="collection__title">
+              Colección <br>
+              Mujeres
+            </h2>
+            <a href="#" class="button__link">
+              Ver Productos <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PRODUCTS Masculinos ====================-->
+    <section class="products section" id="products">
+      <h2 class="section__title">
+        Colección Masculina
+      </h2>
+
+      <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="products__card swiper-slide">
+            <img src="img/product1.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product2.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product3.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product4.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+        </div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-line"></i>
+        </div>
+      </div> 
+    </section>
+
+    <!--==================== PRODUCTS FEMENINA ====================-->
+        <section class="products section" id="products">
+          <h2 class="section__title">
+            Colección Femenina
+          </h2>
+    
+          <div class="products__container container swiper">
+            <div class="swiper-wrapper">
+              <article class="products__card swiper-slide">
+                <img src="img/product1.png" alt="product image" class="products__img">
+                <h2 class="products__title">
+                  Polo negro
+                </h2>
+                <span class="products__price">
+                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                  color: #ff4d4d; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                  color: #f7f1e3; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                  color: #4b4b4b; border-radius: 50%;"></i>
+                </span>
+              </article>
+    
+              <article class="products__card swiper-slide">
+                <img src="img/product2.png" alt="product image" class="products__img">
+                <h2 class="products__title">
+                  polo negro
+                </h2>
+                <span class="products__price">
+                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                  color: #ff4d4d; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                  color: #f7f1e3; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                  color: #4b4b4b; border-radius: 50%;"></i>
+                </span>
+              </article>
+    
+              <article class="products__card swiper-slide">
+                <img src="img/product3.png" alt="product image" class="products__img">
+                <h2 class="products__title">
+                  polo negro
+                </h2>
+                <span class="products__price">
+                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                  color: #ff4d4d; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                  color: #f7f1e3; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                  color: #4b4b4b; border-radius: 50%;"></i>
+                </span>
+              </article>
+    
+              <article class="products__card swiper-slide">
+                <img src="img/product4.png" alt="product image" class="products__img">
+                <h2 class="products__title">
+                  polo negro
+                </h2>
+                <span class="products__price">
+                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+                  color: #ff4d4d; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
+                  color: #f7f1e3; border-radius: 50%;"></i>
+                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
+                  color: #4b4b4b; border-radius: 50%;"></i>
+                </span>
+              </article>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-line"></i>
+            </div>
+          </div> 
+        </section>
+
+    <!--==================== BRANDS ====================-->
+    <section class="brand section">
+      <h2 class="section__title">
+        Marcas
+      </h2>
+      <div class="brand__container container grid">
+        <img src="img/logo1.png" alt="logo image" class="brand__img">
+        <img src="img/logo2.png" alt="logo image" class="brand__img">
+        <img src="img/logo3.png" alt="logo image" class="brand__img">
+        <img src="img/logo4.png" alt="logo image" class="brand__img">
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div>
+        <a href="" class="footer__logo">
+          Shop
+        </a>
+        <p class="footer__description">
+          compra de productos <br>
+          en el mercado central <br>
+          huanta te esperamos
+        </p>
+      </div>
+
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">
+            Nosotros
+          </h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Tienda</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Categoría</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contactos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Blocks    
+          </h3> 
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Eventos</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuevos Populares</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuevos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Tienda Física
+          </h3>
+          <p class="footer__information">
+            Lunes a Viernes <br>
+            8:00 am - 6:00 pm
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Contactos
+          </h3>
+
+          <ul class="footer__social">
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__info container">
+      <span class="footer__copy">
+        &#169; sam
+      </span>
+      <a href="#" class="footer___privacy">
+        términos
+      </a>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
