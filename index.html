@@ -71,9 +71,7 @@
             Moda
           </h1>
           <p class="home__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dolore, architecto. Non minus nisi, aliquid laudantium aperiam reiciendis ab error magni officia, ex eius?
-            Ullam natus omnis eveniet, vitae beatae tempore.
+            Esta temporada, la moda se inspira en la elegancia minimalista y el confort elevado. Desde las pasarelas hasta las calles, las piezas clave incluyen prendas con cortes limpios y fluidos, telas lujosas y detalles cuidadosamente diseñados.
           </p>
           <a href="#new" class="button__link">
             Explorar <i class="ri-arrow-right-line"></i>
@@ -81,8 +79,8 @@
         </div>
 
         <div class="home__images">
-          <img src="img/modelo2.jpg" alt="home image">
-          <img src="img/modelo1.jpg" alt="home image">
+          <img src="img/modelo2.jpg" alt="home image" class="images__modelo">
+          <img src="img/modelo1.jpg" alt="home image" class="images__modelo">
         </div>
     </section>
 
@@ -91,70 +89,54 @@
       <h2 class="section__title">
         Más vendidos
       </h2>
-      <div class="new__container container grid">
-        <article class="new__card">
-          <img src="img/modelo6.jpg" alt="new image" class="new__img">
-          <a href="#" class="new__link">
-            <div class="new__data">
-              <h2 class="new__title">
-                Polo y Conjunto
-              </h2>
-              <span class="new__subtitle">
-                <i class="ri-money-dollar-circle-line">125</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                color: #ff4d4d; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                color: #f7f1e3; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                color: #4b4b4b; border-radius: 50%;"></i>
-              </span>
-            </div>
-            <i class="ri-fire-line"></i>
-          </a>
-        </article>
+      <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="products__card swiper-slide">
+            <img src="img/modelo7.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Conjunto para Mujeres
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
 
-        <article class="new__card">
-          <img src="img/modelo5.jpg" alt="new image" class="new__img">
-          <a href="#" class="new__link">
-            <div class="new__data">
-              <h2 class="new__title">
-                Pantalón y Conjunto
-              </h2>
-              <span class="new__subtitle">
-                <i class="ri-money-dollar-circle-line">150</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                color: #ff4d4d; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                color: #f7f1e3; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                color: #4b4b4b; border-radius: 50%;"></i>
-              </span>
-            </div>
-            <i class="ri-fire-line"></i>
-          </a>
-        </article>
+          <article class="products__card swiper-slide">
+            <img src="img/modelo6.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo Negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #6c5ce7;
+              color: #6c5ce7; border-radius: 50%;"></i>
 
-        <article class="new__card">
-          <img src="img/modelo7.jpg" alt="new image" class="new__img">
-          <a href="#" class="new__link">
-            <div class="new__data">
-              <h2 class="new__title">
-                Hola y están
-              </h2>
-              <span class="new__subtitle">
-                <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                color: #ff4d4d; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                color: #f7f1e3; border-radius: 50%;"></i>
-                <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                color: #4b4b4b; border-radius: 50%;"></i>
-              </span>
-            </div>
-            <i class="ri-fire-line"></i>
-          </a>
-        </article>
-      </div>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/modelo5.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Conjunto para Hombres
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+        </div>
+      </div> 
     </section>
 
     <!--==================== COLLECTION ====================-->
@@ -170,11 +152,11 @@
               Ver Productos <i class="ri-arrow-right-line"></i>
             </a>
           </div>
-          <img src="img/collection1.png" alt="collection image">
+          <img src="img/modelo5.jpg" alt="collection image">
         </div>
 
         <div class="collection__explore">
-          <img src="img/collection2.png" alt="collection image">
+          <img src="img/modelo3.jpg" alt="collection image">
           <div class="collection__data-women">
             <h2 class="collection__title">
               Colección <br>
@@ -260,106 +242,236 @@
             </span>
           </article>
         </div>
-        <div class="swiper-button-next">
-          <i class="ri-arrow-right-line"></i>
+      </div> 
+
+      <h2 class="section__title">
+      </h2>
+
+      <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="products__card swiper-slide">
+            <img src="img/product1.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product2.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product3.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="img/product4.png" alt="product image" class="products__img">
+            <h2 class="products__title">
+              polo negro
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
         </div>
-        <div class="swiper-button-prev">
-          <i class="ri-arrow-left-line"></i>
+      </div> 
+
+      <h2 class="section__title"> 
+      </h2>
+
+      <h2 class="section__title">
+        Colección Femenina 
+      </h2>
+
+      <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imgen 1.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Pantalón
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 2.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Falda
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 3.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo y Zapatillas 
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 4.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Camisa
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+        </div>
+      </div> 
+
+      <h2 class="section__title">
+      </h2>
+      
+      <div class="products__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 5.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Pantalón
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 6.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo y Camisa
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen 7.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Polo y Polera
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
+
+          <article class="products__card swiper-slide">
+            <img src="stock/femenino/imagen8.jpg" alt="product image" class="products__img">
+            <h2 class="products__title">
+              Pantalón y Polo
+            </h2>
+            <span class="products__price">
+              <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
+              color: #ff4d4d; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #f7f1e3;
+              color: #f7f1e3; border-radius: 50%;"></i>
+              <i class="ri-circle-line" style=" background-color: #4b4b4b;
+              color: #4b4b4b; border-radius: 50%;"></i>
+            </span>
+          </article>
         </div>
       </div> 
     </section>
 
-    <!--==================== PRODUCTS FEMENINA ====================-->
-        <section class="products section" id="products">
-          <h2 class="section__title">
-            Colección Femenina
-          </h2>
-    
-          <div class="products__container container swiper">
-            <div class="swiper-wrapper">
-              <article class="products__card swiper-slide">
-                <img src="img/product1.png" alt="product image" class="products__img">
-                <h2 class="products__title">
-                  Polo negro
-                </h2>
-                <span class="products__price">
-                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                  color: #ff4d4d; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                  color: #f7f1e3; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                  color: #4b4b4b; border-radius: 50%;"></i>
-                </span>
-              </article>
-    
-              <article class="products__card swiper-slide">
-                <img src="img/product2.png" alt="product image" class="products__img">
-                <h2 class="products__title">
-                  polo negro
-                </h2>
-                <span class="products__price">
-                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                  color: #ff4d4d; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                  color: #f7f1e3; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                  color: #4b4b4b; border-radius: 50%;"></i>
-                </span>
-              </article>
-    
-              <article class="products__card swiper-slide">
-                <img src="img/product3.png" alt="product image" class="products__img">
-                <h2 class="products__title">
-                  polo negro
-                </h2>
-                <span class="products__price">
-                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                  color: #ff4d4d; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                  color: #f7f1e3; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                  color: #4b4b4b; border-radius: 50%;"></i>
-                </span>
-              </article>
-    
-              <article class="products__card swiper-slide">
-                <img src="img/product4.png" alt="product image" class="products__img">
-                <h2 class="products__title">
-                  polo negro
-                </h2>
-                <span class="products__price">
-                  <i class="ri-money-dollar-circle-line">130</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  Colores: &nbsp; &nbsp;<i class="ri-circle-line" style=" background-color: #ff4d4d;
-                  color: #ff4d4d; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #f7f1e3;
-                  color: #f7f1e3; border-radius: 50%;"></i>
-                  <i class="ri-circle-line" style=" background-color: #4b4b4b;
-                  color: #4b4b4b; border-radius: 50%;"></i>
-                </span>
-              </article>
-            </div>
-            <div class="swiper-button-next">
-              <i class="ri-arrow-right-line"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="ri-arrow-left-line"></i>
-            </div>
-          </div> 
-        </section>
-
     <!--==================== BRANDS ====================-->
-    <section class="brand section">
+    <section class="brand section__brand">
       <h2 class="section__title">
         Marcas
       </h2>
       <div class="brand__container container grid">
-        <img src="img/logo1.png" alt="logo image" class="brand__img">
-        <img src="img/logo2.png" alt="logo image" class="brand__img">
-        <img src="img/logo3.png" alt="logo image" class="brand__img">
-        <img src="img/logo4.png" alt="logo image" class="brand__img">
+        <img src="img/logo1.png" alt="logo image" class="brand__img logo">
+        <img src="img/logo2.png" alt="logo image" class="brand__img logo">
+        <img src="img/logo3.png" alt="logo image" class="brand__img logo">
+        <img src="img/logo4.png" alt="logo image" class="brand__img logo">
       </div>
     </section>
   </main>
